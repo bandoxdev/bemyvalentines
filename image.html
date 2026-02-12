@@ -43,6 +43,11 @@ p{
 |___| |_______ \____/ \_/  \___  >  / ______|\____/|____/  |____|__ (____  (____  / ____|\____/  |_______ (____  /___  /____(____  /___  / \____|__  (____  /__|_ \____/ 
               \/               \/   \/                             \/    \/     \/\/                     \/    \/    \/          \/    \/          \/     \/     \/      </pre>
 
+<audio id="bg-music" loop>
+    <source src="oksihina.mp3" type="audio/mpeg">
+</audio>
+<button>DJ play the music!</button>
+    
 <p>
 Kung ito na ang huling minuto sa mundo
 Mga segundo'y uubusin sa tabi mo
@@ -1102,6 +1107,15 @@ Aking oksihina
 'Pag hindi na makahinga
 </p>
 
+<script>
+    function playMusic() {
+        const music = document.getElementById("bg-music");
+        music.volume = 0.4;
+        music.play();
+    }
+</script>
+
 </body>
 </html>
+
 
